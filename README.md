@@ -1,5 +1,5 @@
 > [!CAUTION]
-> Inspired by ThePrimeAgen and Joesan.
+> Inspired by ThePrimeAgen and Joesan.<br>
 > [Joesan Complete Neovim Setup Guide](https://youtu.be/6pAG3BHurdM)<br>
 > [PrimeAgen Nvim Playlist](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R)<br>
 > [PrimeAgen 0 to LSP](https://youtu.be/w7i4amO_zaE?si=v4uEn3UEa4bAf2T8)
