@@ -11,7 +11,8 @@
 > If you clone it as, is some additional packages has to be intalled but you can see what is missing in the status-bar as you start NeoVim 
 
 ## Installation
-> [!WARNING] Linux only. I don't care about Windows and SoyDevOS
+> [!WARNING]
+> Linux only. I don't care about Windows and SoyDevOS
 ```bash
 git clone --depth 1 https://github.com/marcoperinidev/vim-config.git ~/.config/nvim && rm ~/.config/nvim/README.md && nvim
 ```
