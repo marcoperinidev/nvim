@@ -1,4 +1,5 @@
-> [!CAUTION] Inspired by ThePrimeAgen and Joesan.
+> [!CAUTION]
+> Inspired by ThePrimeAgen and Joesan.
 > [Joesan Complete Neovim Setup Guide](https://youtu.be/6pAG3BHurdM)<br>
 > [PrimeAgen Nvim Playlist](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R)<br>
 > [PrimeAgen 0 to LSP](https://youtu.be/w7i4amO_zaE?si=v4uEn3UEa4bAf2T8)
@@ -6,7 +7,8 @@
 > [!TIP]
 > **If you clone the repo into your machine and use the config by copying .config/nvim to your home folder, wait for the plugins, language servers and parsers to install with lazy.nvim, Mason and nvim-treesitter.<br>If you are opening a lua file or another file I have language servers configured for, like html, css or javascript/typescript, you might also get an error saying that the server failed to start. This is because Mason hasn't installed it yet. Press enter to continue, Mason will automatically install it.**
 
-> [!NOTE]If you clone it as, is some additional packages has to be intalled but you can see what is missing in the status-bar as you start NeoVim 
+> [!NOTE]
+> If you clone it as, is some additional packages has to be intalled but you can see what is missing in the status-bar as you start NeoVim 
 
 ## Installation
 > [!WARNING] Linux only. I don't care about Windows and SoyDevOS
