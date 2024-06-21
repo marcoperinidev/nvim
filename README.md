@@ -14,7 +14,7 @@
 > [!WARNING]
 > Linux only. I don't care about Windows and SoyDevOS
 ```bash
-git clone --depth 1 https://github.com/marcoperinidev/vim-config.git ~/.config/nvim && rm ~/.config/nvim/README.md && nvim
+git clone --depth 1 https://github.com/marcoperinidev/nvim.git ~/.config/nvim && rm ~/.config/nvim/README.md && nvim
 ```
 ### Requirements
 - True Color Terminal: check True Color Terminal [here](https://gist.github.com/kurahaupo/6ce0eaefe5e730841f03cb82b061daa2). (I use [Kitty](https://sw.kovidgoyal.net/kitty/binary/))
