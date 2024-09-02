@@ -36,11 +36,16 @@ curl -L https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Meslo.z
 #
 **NeoVim:**
 > <u>How to install it's really up to you.</u>
-> #### Pre-build archive(remember to add it to you path in the ~/.bashrc)
+> #### Pre-build archive
 > ```bash
-> curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+> curl -LO https://github.com/neovim/neovim/releases/download/v0.10.1/nvim-linux64.tar.gz
 > sudo rm -rf /opt/nvim
 > sudo tar -C /opt -xzf nvim-linux64.tar.gz
+> echo 'export PATH="$PATH:/opt/nvim-linux64/bin"' >> ~/.bashrc # if you're using bash
+> # OR
+> echo 'export PATH="$PATH:/opt/nvim-linux64/bin"' >> ~/.zshrc # if you're using zsh
+> source ~/.bashrc # for bash shell
+> source ~/.zshrc # for zsh shell
 > ```
 > #### Appimage
 > - Follow [THIS](https://github.com/neovim/neovim/blob/master/INSTALL.md#appimage-universal-linux-package)
