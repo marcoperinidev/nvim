@@ -25,20 +25,30 @@ git clone --depth 1 https://github.com/marcoperinidev/nvim.git ~/.config/nvim &&
 - [node/npm](https://nodejs.org/en/download/package-manager) if you wanna use js/ts language server.
 #
 ## Installation Instructions
-**Kitty:**
+### Now switched to Teminator but just leave Kitty for those who prefer
+  > **Kitty:**
+  > ```bash
+  > curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+  > ```
+
+**Terminator**
 ```bash
-curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+sudo apt install terminator # ubuntu-like
 ```
+```bash
+yay -Syy terminator-git # Arch
+```
+
 **Nerd Font:**
 ```bash
-curl -L https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Meslo.zip -o ~/Downloads/Meslo.zip && mkdir -p ~/.fonts && unzip ~/Downloads/Meslo.zip -d ~/.fonts
+curl -L https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Meslo.zip -o ~/Downloads/Meslo.zip && mkdir -p ~/.fonts && unzip ~/Downloads/Meslo.zip -d ~/.fonts && fc-cache -v
 ```
 #
 **NeoVim:**
 > <u>How to install it's really up to you.</u>
 > #### Pre-build archive
 > ```bash
-> curl -LO https://github.com/neovim/neovim/releases/download/v0.10.1/nvim-linux64.tar.gz
+> curl -LO https://github.com/neovim/neovim/releases/download/v0.10.2/nvim-linux64.tar.gz
 > sudo rm -rf /opt/nvim
 > sudo tar -C /opt -xzf nvim-linux64.tar.gz
 > echo 'export PATH="$PATH:/opt/nvim-linux64/bin"' >> ~/.bashrc # if you're using bash
