@@ -48,7 +48,7 @@ curl -L https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Meslo.z
 > <u>How to install it's really up to you.</u>
 > #### Pre-build archive
 > ```bash
-> curl -LO https://github.com/neovim/neovim/releases/download/v0.10.2/nvim-linux64.tar.gz
+> curl -LO https://github.com/neovim/neovim/releases/download/v0.12.4/nvim-linux-x86_64.tar.gz
 > sudo rm -rf /opt/nvim
 > sudo tar -C /opt -xzf nvim-linux64.tar.gz
 > echo 'export PATH="$PATH:/opt/nvim-linux64/bin"' >> ~/.bashrc # if you're using bash
